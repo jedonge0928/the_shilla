@@ -1,0 +1,153 @@
+*{margin: 0; padding: 0;}
+ul,li{list-style: none;}
+a{ text-decoration: none; color: #000;}
+
+/*header*/
+header{
+position: fixed;
+left: 0;
+top: 0;
+right: 0;
+transition: all 0.5s;
+z-index: 997;
+ width: 100% ;
+ height: 90px;
+ background-color: #DAC59A;
+}
+
+
+#header_wrap{
+    margin: 0 auto;
+    width: 1300px;
+    height: 80px;
+}
+
+#logo{
+    float: left;
+    width: 26.1%;
+    height: 80px;
+}
+
+nav{
+    float: right;
+    width: 61.5%;
+    height: 80px;
+}
+
+/*로그인*/
+#util{
+    margin-top: 10px;
+    float: right;
+}
+
+#util>li{
+    float: left;
+    padding-left: 25px;
+    text-align: center;
+}
+
+#util>li:first-child{
+    padding-left: 0px;
+}
+
+#util>li>a{
+    display: block;
+    color: #636363;
+    font-size: 12px;
+}
+
+/*로그인*/
+
+/*메뉴*/
+
+
+#menu{
+    float: right;
+    margin-top: 10px;
+}
+
+#menu>li{
+    float: left;
+    margin-left: 80px;
+    padding: 14.5px 0 14.5px 14.5px;
+}
+
+#menu>li:first-child{
+    margin-left: 0px;
+}
+#menu>li:last-child{
+    padding-left: 0px;
+}
+
+#menu>li>a{
+    display: block;
+    font-size: 16px;
+    font-weight: 800;
+    color: #4B340D;
+}
+.sub_mn_area {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 250px;
+    background: rgb(133, 133, 133);
+    overflow: hidden;
+}
+
+
+#sub_mn{
+    margin: 0 auto;
+    width: 1300px;
+    height: 300px;
+    background-color: #f3f3f3;
+}
+#sub_menu1{
+    float: left;
+    width: 150px;
+    height: 300px;
+    margin: 10px 0px 0px 550px;
+}
+#sub_menu1>li{
+    text-align: center;
+    padding-bottom: 15px;
+}
+#sub_menu1>li>a{
+    font-size: 15px;
+    font-weight: 600;
+    color: #623910;
+}
+
+#sub_menu2{
+    margin: 10px 20px 0 175px;
+    float: left;
+    width: 150px;
+    height: 300px;
+}
+#sub_menu2>li{
+    text-align: center;
+    padding-bottom: 15px;
+}
+#sub_menu2>li>a{
+    font-size: 15px;
+    font-weight: 600;
+    color: #623910;
+}
+
+#sub_menu3{
+    margin: 10px 0px 0px 0px;
+    float: left;
+    width: 150px;
+    height: 300px;
+}
+#sub_menu3>li{
+    text-align: center;
+    padding-bottom: 15px;
+}
+#sub_menu3>li>a{
+    font-size: 15px;
+    font-weight: 600;
+    color: #623910;
+}
+
